@@ -1,2 +1,5 @@
-# we_must_know_website
-We must know, We shall know ! Writing what I think about the stuff in the universe 
+# We must know, We shall know 
+
+I think this is the best way of expressing myself and what I think about the nature and 
+people who try there level best to understand the laws of NATURE !
+
