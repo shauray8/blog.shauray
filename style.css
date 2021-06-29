@@ -89,6 +89,10 @@ section {
     transform: translateY(-101%)
 }
 
+.nav-open a{
+  text-decoration:none;
+}
+
 .contact {
     grid-column: 1/3;
 }
