@@ -3,7 +3,7 @@ const slider = document.querySelector('.slider')
 const logo = document.querySelector('#logo')
 const hamburger = document.querySelector('.hamburger')
 const headline = document.querySelector('.headline')
-
+const down = document.querySelector(".down")
 
 const tl = new TimelineMax();
 
@@ -13,6 +13,7 @@ tl.fromTo(hero, 1, { height: '0%' }, { height: '80%', ease: Power2.easeInOut })
     .fromTo(logo, 0.5, { opacity: 0, x: 30 }, { opacity: 1, x: 0 }, "-=0.5")
     .fromTo(hamburger, 0.5, { opacity: 0, x: 30 }, { opacity: 1, x: 0 }, "-=0.5")
     .fromTo(headline, 0.5, { left: "20%" }, { left: "2%" }, "-=.5")
+    .fromTo(down, 0.5, { opacity: 0, x: 30 }, { opacity: 1, x: 0 }, "-=0.5")
 
 
 function init() {
