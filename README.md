@@ -17,4 +17,5 @@ if you wanna know more about it hop on to my repo section and you'll find a repo
 or here's a link [Clip-Gan](https://github.com/shauray8/clip-gan)
 
 
+#### Part of this webpage is taken from [Dev Ed's youtube channel](https://www.youtube.com/channel/UClb90NQQcskPUGDIXsQEz5Q) I don't remember the exact video but it's somewhere there on the channel ! 
 
