@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 10px 90px 0px 90px;
+    box-sizing: border-box;
+    font-family: Corbel;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+p{
+  padding: 30px 10px 0 10px;
+}
+
