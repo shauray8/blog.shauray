@@ -1,6 +1,6 @@
 * {
     margin: 0;
-    padding: 10px 90px 0px 90px;
+    padding: 10px 5% 0px 5%;
     box-sizing: border-box;
     font-family: Corbel;
 }
@@ -9,7 +9,7 @@ html {
 }
 
 p{
-  padding: 30px 200px 0 90px;
+  padding: 30px 10% 0 5%;
   font-size:17px;
 }
 
