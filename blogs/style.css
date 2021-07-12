@@ -2,6 +2,7 @@
     margin: 0;
     padding: 10px 5% 0px 5%;
     box-sizing: border-box;
+    background-color:#fafbfa;
     font-family: Corbel;
 }
 html {
@@ -23,5 +24,9 @@ p{
 
 .back img:hover{
   opacity:.8;
+}
+b, i{
+  font-size:19px;
+  padding:1px;
 }
 

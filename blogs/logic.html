@@ -43,13 +43,96 @@
       the negation symbol (¬) also called as not takes in a single variable and makes it the opposite of itself. for example if A = True then ¬A = False.<br>
       the truth table for negation is fairly simple<br><br>
 
-      <b>insert image of negation here</b><br><br>
+      <img src = "../docs/negation.png"></img><br><br>
 
       maybe we can now try solving some stuff with just negation<br>
       previously we make some variables A, B and C if you don't remember it just go and take a quick look at it<br>
       so coming to the questions what is ¬A?<br>
       A = "all men are mortal" then the negation of it has to be "all men are not mortal".<br>
-      Okay, this was fairly simple now what is ¬(¬A) Now it has 2 negation symbols and if ¬A was "all men are not mortal" then the negation of it has to be "all men are mortal" right?<br><br>
+      Okay, this was fairly simple now what is ¬(¬A) this thing has 2 negation symbols and if ¬A was "all men are not mortal" then the negation of it has to be "all men are mortal" right?<br><br>
+      <br><br>
+      this is more then enough for negation i guess and now we can take a look into other symbols and this is going to be fairly easy so i'll just speed everything up<br><br>
+
+
+      <img src = "../docs/and.png"></img><br><br>
+      <br>
+      this is the truth table for and (∧) what is does is very straight forward if A 'and' B is true then C or A∧B = True <br><br>
+
+      <img src = "../docs/or.png"></img><br><br>
+      <br>
+      this is the truth table for or (∨) so we can devide ∨ into 2 categories "inclusive or" and "exclusive or" also called as OR and XOR respectively, XOR is generally used in computer science but if we ristrict ourselves just to mathematics we'll pretty much everytime use inclusive or <br>
+      now what exactly is OR? <br>
+      there should be atleast one TRUE to make the output True and in the case of exclusice or atmost 1 of the variable has to be TRUE <br><br>
+
+      <img src = "../docs/implies.png"></img><br><br>
+      <br>
+      this is the last propositional logic operation we will use this is called "implies" or "if....then" this is a bit confusing and it may take time to clear some stuff about implication <br>
+      i will try to explain this with little example <br><br>
+
+      <b> explain implies here </b>
+
+      <br><br><br>
+      Now we will again get into the first statement we talked about earlier 
+      so the statement says A → B = C according the truth table T → T = T so if the statement is right that means that socrates is immortal.<br>
+      now if we change the statements a little bit by just using aur previously defined symbols ((¬A) → B) = T and (A → (¬B)) = F (if you wanna understand it better just translate the english sentences accourding to the equation)<br><br>
+
+      I don't know if you noticed it or not but whenever I write our logical language I always use brackets usually to contain the logical operations in it and the brackets " ), ( " is a part of our logical language.<br>
+      so here are some logical equations with appropriate brackets in it and this can easily explain where and when to use brackets!<br><br>
+
+      <b>* ((¬C) ∧ (¬K)</b><br></b>
+      <b>* ((A1 ∧ A10) → ((¬A3) ∨ (A8 ↔ A3)))<br></b>
+      <b>* ((A ∨ (B ∧ C)) ↔ ((A ∨ B) ∧ (A ∨ C)))<br></b>
+      <b>* (A ∨ (¬A)) <br></b>
+      <b>* ((¬(¬A)) ↔ A)<br></b>
+      <b>* ((A ∧ B) → ((¬C) ∨ D))<br></b>
+      <b>* ((→A3<br></b>
+
+      <br>
+      here you can clearly understand how and when to use a bracket and maybe you can try to make there truth tables and you'll find that for some of the equations the truth table always yields TRUE as the output.<br>
+      this is not some coincidence and are knowns as tautologies.<br>
+      There is an unusuall equation in the table above. maybe it's the last equation will 2 opening brackets and no closing brackets, this is ofcourse the right way of using the power of logic and is not a WFF. <br><br>
+
+      WFF? What is this thing now something related to WTF ?<br>
+      WFF stands for Well Formed Formula that means if you have a logical statements which obeys all the rules such as proper use of symbols and brackets hence the last statement is not a WFF. <br><br>
+
+      Now how this is different from comman sense and why am I even reading this?<br>
+      Ofcourse this is no different then comman sense but it teaches you how to solve a perticular problem and is the problem even solvable or not and in the next section we'll see some intresting stuff !<br><br>
+
+
+      * if all cows are black and twitty is black, then twitty is a cow.
+
+      * the barber in the village shaves every man in the village and does not shaves himself but no man in the village has a beard. Does the barber shaves himself? (no man is allowed to shave himself)
+
+      * number that can precisely be discribed by english sentence. 
+      - ten 
+      - ten to the power of ten
+      - stars in the sky
+
+      now let us actually use some logic and take some variables <br><br>
+      B = all numbers that can be discribed by an english by atmost 200 chars.<br>
+      is B a finite set ?<br>
+      -- yes
+      <br><br>
+      now we wanna know what does not comes into B?<br>
+      the first number that cannot be discribed by an english sentence by atmost 200 chars.
+      <br><br>
+      But here we just discribed a number that cannot be discribed by atmost 200 chars <b>in</b> 200 chars !<br>
+      so just like that here the proof by contradiction ! Now if you don't know what is proof by contradiction we'll see it later in the blog post don't worry.<br><br>
+
+
+      * now you have a box with 2 statements written on it  
+          1. atleast one of the statement in the box is wrong.
+          2. I am not going to be a billionaire by the age of 20 
+
+        and just like that i became worlds youngest billionaire cause if 1 statement is wrong then it's true so 2 statement has to be true !
+      <br><br>
+
+      We talked about sets earlier and not everyone knows about sets so this section is all about explaining sets ! <br><br>
+
+      <b>sets starts from here</b>
+    
+      
+
 
 
       </p>
