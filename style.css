@@ -118,6 +118,7 @@ section {
 #main{
     margin-top:10vh;
     background-color:#f3f3f3;
+    z-index: -1;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
