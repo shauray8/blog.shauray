@@ -35,7 +35,7 @@
       <i>Therefore, Socrates is mortal.</i><br><br>
 
       here "all men are mortal" can be referred to as A, "Socrates is a man" can be referred to as B and the last sentence can be referred to as C<br>
-      now we will play with some symbols mainly " ∧, →, ¬, ∨ " (at least for now)<br><br>
+      now we will play with some symbols mainly " ∧, ⇒ or → , ¬, ∨ " (at least for now)<br><br>
 
       every symbol has its truth table. Now, what exactly is a truth table?<br>
       Every variable can be in a state of either True or False and certain combinations of Trues and Falses can give different results depending on the operations(those symbols I talked about earlier)<br>br>
@@ -74,7 +74,7 @@
       <br><br><br>
       Now we will again get into the first statement we talked about earlier 
       so the statement says A → B = C according the truth table T → T = T so if the statement is right that means that socrates is immortal.<br>
-      now if we change the statements a little bit by just using aur previously defined symbols ((¬A) → B) = T and (A → (¬B)) = F (if you wanna understand it better just translate the english sentences accourding to the equation)<br><br>
+      now if we change the statements a little bit by just using aur previously defined symbols ((¬A) →  B) = T and (A → (¬B)) = F (if you wanna understand it better just translate the english sentences accourding to the equation)<br><br>
 
       I don't know if you noticed it or not but whenever I write our logical language I always use brackets usually to contain the logical operations in it and the brackets " ), ( " is a part of our logical language.<br>
       so here are some logical equations with appropriate brackets in it and this can easily explain where and when to use brackets!<br><br>
@@ -126,11 +126,60 @@
 
         and just like that i became worlds youngest billionaire cause if 1 statement is wrong then it's true so 2 statement has to be true !
       <br><br>
+      <b>explain logically implies and bidir arrow and for all and there exists</b>
+
+      <b>proof</b><br><br>
+      
+      The essential concept in higher-level mathematics is that of proof. Proof is an argument that establishes the truth of a fact.<br>
+      again let us see stuff by understanding some examples, consider the following theorem <br><br>
+      <i>the sum of any two even integers is even.</i><br><br>
+      we know that 2 + 4 = 6 that is even but this is not enough to prove the theorem. so we need a defination of even <br><br>
+      <i>an integer is even if it may be written in the form 2n where n is an integer.</i><br><br>
+
+      Now just go with the flow and make a proof out of it, here's the proof for the same but before looking at it just give it a try <br><br>
+
+      <b>Proof.</b><br>
+      <b>Let x and y be any two even integers. We want to show that x+y is an even integer.<br>
+        By definition, an integer is even if it can be written in the form 2k for some integer k.<br>
+        Thus there exist integers n,m such that x=2 m and y = 2n. We compute:<br>
+        x + y = 2m + 2n = 2(m+n). <br>
+        Because m+n is an integer, this shows that x+y is an even integer.</b><br>
+
+        The important link between theorems and definitions is much of what learning higher-level math-ematics is about.
+        We prove theorems (and solve homework problems) because they make us use and understand the subtleties of definitions.
+        One does not <i>know</i> mathematics, one <i>does</i> it. Mathematics is a practice; an art as much as it is a science.
+
+
+        You can try proving a lot of basic theorems just by the method above (just try proving "product of two odd integers is odd"). This method of proving stuff is called Direct proof.<br><br>
+
+        Methods of proof <br>
+        1. <i>Direct</i> Assume P and logically deduce Q (P → Q). we'll just try proving the theorem mentioned above here P = "product of 2 odd integers" and Q = "is odd". 
+        <b>Proof:<br>
+        if m,n are integers then (2m+1) and (2n+1) are odd integers. <br>
+        (2m+1)(2n+1) = 4mn+2m+2n+1 = 2(mn + m + n) + 1<br>
+        here (mn+m+n) is an integer and 2(mn+m+n)+1 makes it an odd integer.</b><br><br>
+
+      Here just by showing that P → Q is true, that (the truth of) P implies (the truth of) Q requires an argument. This is the <i>proof</i><br><br>
+      
+
+      2. <i>Contrapositive</i> Assume ¬Qand deduce ¬P. This is enough since the contrapositive ¬Q=⇒ ¬P is logically equavalent to P ⇒ Q. this is fairly straight forward considering you understood Direct proof and ofcource I cant go into such great details for every topic but if you wanna learn more on the subject I'll recomend some books and lecture series at the end.<br><br>
+
+      3. <i>Contradiction</i> Assume that P and ¬Q are true and deduce a contradiction.  Since (P ∧ ¬Q) implies a contradiction, this shows that (P ∧ ¬Q) must be false. Because (P ∧ ¬Q) is equivalent to ¬(P ⇒ Q), this is enough to conclude that P ⇒ Q is true. <br><br>
+
+
+      4. <i>Induction</i> I think this is the most usefull proof of them all and i'll explain this a little later.<br><br>
+
+      Now you can go and try proving some theorems on your own but if you find a proof unusually tough thats okay because some proofs are indeed tough and mathematicians have dedicated there whole lives just to prove some theorems. Now what to do for proofs like that?<br>
+      Just learn them there is no other and proofs like this is a distillation of thousands of attempts and improvements, perhaps over many years. No-one came up with this argument as a first attempt! <br><br>
 
       We talked about sets earlier and not everyone knows about sets so this section is all about explaining sets ! <br><br>
 
-      <b>sets starts from here</b>
-    
+      <b>sets starts from here</b><br><br>
+      
+
+      <b>higher level logic like compactness and stuff</b><br><br>
+
+      <b>godels incompletness and stuff about godel</b><br><br>
       
 
 
