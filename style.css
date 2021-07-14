@@ -85,10 +85,10 @@ section {
     background: white;
     display: grid;
     grid-template-columns: 5% 1fr 1fr 1fr 5%;
-    justify-items: center;
-    align-items: center;
     width: 100%;
     text-align: center;
+    justify-items:center;
+    align-items:center;
     transform: translateY(-101%)
 }
 
@@ -136,6 +136,9 @@ section {
 }
 
 @media (max-width:670px) {
+    .nav-open{
+      height:30vh;
+    }
     .nav-open h3 {
         font-size: 20px;
         padding-bottom: 30px;
@@ -217,10 +220,18 @@ section {
   
   /* On mouse-over, add a deeper shadow */
 .card:hover {
-    box-shadow: 0 10px 20px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 10px 20px 0 rgba(0,0,0,0.4);
 }
   
   /* Add some padding inside the card container */
 .container {
     padding: 10px 16px;
+}
+
+.labels{
+  text-align:center;
+  padding:10px;
+  color:#f3f3f3;
+  border-radius:20px;
+  background: linear-gradient(to left, #355562, #020202);
 }
