@@ -43,7 +43,10 @@
       the negation symbol (¬) also called as not takes in a single variable and makes it the opposite of itself. for example if A = True then ¬A = False.<br>
       the truth table for negation is fairly simple<br><br>
 
-      <img src = "../docs/negation.png"></img><br><br>
+      <video width="100%" controls>
+      <source src="../docs/negation.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+      </video><br><br>    
 
       maybe we can now try solving some stuff with just negation<br>
       previously we make some variables A, B and C if you don't remember it just go and take a quick look at it<br>
@@ -54,18 +57,27 @@
       this is more then enough for negation i guess and now we can take a look into other symbols and this is going to be fairly easy so i'll just speed everything up<br><br>
 
 
-      <img src = "../docs/and.png"></img><br><br>
-      <br>
+      <video width="100%" controls>
+      <source src="../docs/and.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+      </video><br><br>    
+
       this is the truth table for and (∧) what is does is very straight forward if A 'and' B is true then C or A∧B = True <br><br>
 
-      <img src = "../docs/or.png"></img><br><br>
-      <br>
+      <video width="100%" controls>
+      <source src="../docs/or.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+      </video><br><br>    
+
       this is the truth table for or (∨) so we can devide ∨ into 2 categories "inclusive or" and "exclusive or" also called as OR and XOR respectively, XOR is generally used in computer science but if we ristrict ourselves just to mathematics we'll pretty much everytime use inclusive or <br>
       now what exactly is OR? <br>
       there should be atleast one TRUE to make the output True and in the case of exclusice or atmost 1 of the variable has to be TRUE <br><br>
 
-      <img src = "../docs/implies.png"></img><br><br>
-      <br>
+      <video width="100%" controls>
+      <source src="../docs/implies.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+      </video><br><br>    
+
       this is the last propositional logic operation we will use this is called "implies" or "if....then" this is a bit confusing and it may take time to clear some stuff about implication <br>
       i will try to explain this with little example <br><br>
 
@@ -127,7 +139,7 @@
         and just like that i became worlds youngest billionaire cause if 1 statement is wrong then it's true so 2 statement has to be true !
       <br><br>
       <b>explain logically implies and bidir arrow and for all and there exists</b>
-
+      <br><br>
       <b>proof</b><br><br>
       
       The essential concept in higher-level mathematics is that of proof. Proof is an argument that establishes the truth of a fact.<br>
@@ -172,9 +184,89 @@
       Now you can go and try proving some theorems on your own but if you find a proof unusually tough thats okay because some proofs are indeed tough and mathematicians have dedicated there whole lives just to prove some theorems. Now what to do for proofs like that?<br>
       Just learn them there is no other and proofs like this is a distillation of thousands of attempts and improvements, perhaps over many years. No-one came up with this argument as a first attempt! <br><br>
 
+
+      a little cool thing here --
+      what is the remainder of 39^23 / 10 or what is the remainder of 7^9 + 14^3 when devided by 6
+      here the trick take the modulo
+
+      7^9 + 14^3 = 1^9 + 2^3 = 9 mod 6 = 3 so if we devide it by 6, 3 is the remainder
+
       We talked about sets earlier and not everyone knows about sets so this section is all about explaining sets ! <br><br>
 
-      <b>sets starts from here</b><br><br>
+      <b>sets starts from here and infinte sets</b><br><br>
+
+      set are the fundamental building blocks of mathematics.
+      a set is a collection of objects
+      ∈ this notation (describe) and the inverse of it and there exists
+      venn diagram vdo
+      use capital letters for set and lower case for elements
+      {s∈S:sis a Greek letter}={α,β}
+      how to read this
+      It iscrucialthat you can translate between set notationsand English, or you will be incapable of understanding most higher-level mathematics
+      N=Z+=natural numbers={1, 2, 3, 4, . . .}N0=W=Z+0=whole numbers={0, 1, 2, 3, 4, . . .}Z=integers={. . . ,−3,−2,−1, 0, 1, 2, 3, . . .}Q=rational numbers={mn:m∈Zandn∈N}={ab:a,b∈Zandb6=0}R=real numbersR\Q=irrational numbers(read ‘RminusQ’)C=complex numbers={x+iy:x,y∈R,  wherei=√−1}Z≥n=Integers≥n={n,n+1,n+2,n+3, . . .}nZ=multiples ofn={. . . ,−3n,−2n,−n, 0,n, 2n, 3n, . . .}
+      A={x∈R:x2+3x+2=0}
+      a simple calculation tells us that A = {-1,-2}
+      intervals == (0, 1) ={x∈R: 0 less than x < 1} >
+      [1,∞) ={x∈R:x≥1}  vdo
+      finite sets and infinite sets
+      lenth of a set also called cardinality
+      ∅ empty set {n∈N:n<0>} this is an axiom that is a basic assumption in order to do math but cannot prove
+      by this we can assume the existance of some set that has nothing in it 
+      A=B⇐⇒A⊆BandB⊆A
+      we have∅⊆A and A⊆A
+      If A⊆B and B⊆C, then A⊆C
+      A⊆B=⇒|A|≤|B|
+      AC={x∈U:x/∈A} complement of set A, 
+      B\A={x∈B:x/∈A} everything in B but not is A
+      union, intersection and disjoint
+      LetA= (−∞, 3)andB= [−2,∞)in interval notation. ThenA∪B=RandA∩B= [−2, 3) vdo solution
+
+      now with this knowledge we can try proving some stuff (A∩B)C=AC∪BC.  2.(A∪B)C=AC∩BC.
+
+      x∈(A∩B)C=⇒x/∈A∩B=⇒xnot a member ofboth AandB=⇒xnot inat least oneofAandB=⇒x/∈Aorx/∈B=⇒x∈ACorx∈BC=⇒x∈AC∪BC
+
+      Functions -- domain and range and codomain
+      f:A→B
+
+      vdo of f:x→x^2 - [-3,2) -- [0, 9] 
+      
+      injections surjections bijections 
+      injective = ∀a1,a2∈A,f(a1) =f(a2) =⇒a1=a2 this is 1 to 1 
+
+      ∀b∈B,∃a∈Asuch thatf(a) =b onto or surjective takes every value in codomain
+
+      invertable or bijective is both
+
+      example - f:x=x^2 this is neither surjective nor injective
+
+      Prove thatf:R\{1}→R\{2}defined byf(x) =2+11−xis bijective try to do this and explain 
+      
+      bijective functions have inverses!
+      since f is surjective we know that B = range(f) and f is injective then a in A is unique 
+      so inverse is the opp of the original function
+
+
+      if a function is not surjective so we make it by restricting the range g:[0, 3]→[0, 9]:x7→x2
+
+      vdo of f of g of x
+
+      if f(x) =x2andg(x) =1/x−1 while doing this take care of the domain
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
+
       
 
       <b>higher level logic like compactness and stuff</b><br><br>
