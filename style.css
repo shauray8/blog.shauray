@@ -116,10 +116,10 @@ section {
 }
 
 #main{
-    margin-top:10vh;
+    margin-top:7vh;
     z-index: -1;
     display: grid;
-    padding:5%;
+    padding:2%;
     grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
 }
@@ -136,7 +136,7 @@ section {
 }
 
 
-@media (max-width:800px) {
+@media (max-width:850px) {
   
 #main{
     margin-top:10vh;
@@ -217,12 +217,12 @@ section {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #555;
+  background: darkgrey;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #555;
+  background: grey;
 }
 
 
