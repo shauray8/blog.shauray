@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Why should I learn mathematical logic | we must know</title>
+    <meta property="og:title" content="Logic is USEFULL" />
+    <meta property="og:locale" content="en_US" />
+    <meta name="description" content="Can learning mathematical logic be usefull" />
+    <meta property="og:description" content="It is I guess" />
+    <link rel="canonical" href="http://wemustknow.tech" />
+    <meta property="og:url" content="http://wemustknow.tech/logic.html" />
+    <meta property="og:site_name" content="we must know" />
+    <meta property="og:type" content="article" />
+    <meta property="article:published_time" content="" />
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lora%7CInsolata%7CCormorant:500,700" rel="stylesheet">
+    <link rel="icon" href="../docs/logo.png" type="image/png">
+  </head>
+
+  <body>
+      <div class="back">
+        <h4><a href ="../index.html">KNOW</a></h4>
+      </div>
+      <div class="main_body">
+        <h1>PROVING STUFF IS ALWAYS FUN !</h1>
+      <p class ="intro">SHAURAY SINGH · SEPTEMBER 9, 2021</p>
+
+      <p>
+
+      <b>proof</b><br><br>
+
+
+      
+      The essential concept in higher-level mathematics is that of proof. Proof is an argument that establishes the truth of a fact.<br>
+      again let us see stuff by understanding some examples, consider the following theorem <br><br>
+      <i>the sum of any two even integers is even.</i><br><br>
+      we know that 2 + 4 = 6 that is even but this is not enough to prove the theorem. so we need a defination of even <br><br>
+      <i>an integer is even if it may be written in the form 2n where n is an integer.</i><br><br>
+
+      Now just go with the flow and make a proof out of it, here's the proof for the same but before looking at it just give it a try <br><br>
+
+
+      any expression with more left paranthesis than right paranthesis is not a wff. 
+      F - falsity
+      T - truth
+      
+
+      for the video -- 2.v((α∧β))={Tifv(α)=Tandv(β)=T, Fotherwise.3.v((α∨β))={Tifv(α)=Torv(β)=T(or both),Fotherwise.4.v((α→β))= {Fifv(α)=Tandv(β)=F, Totherwise.5.v((α↔β))={Tifv(α)=v(β), Fotherwise.
+       to solve a truth table for a equation split it apart into a tree and than try to solve it from the bottom
+
+      |=  means tautologically implies 
+      explain |==| and  |≠ 
+
+
+      Any proper initial segment of a wff contains an excessof left parentheses. Thus no proper initial segment of a wff canitself be a wff.
+
+
+      Both{¬,∧}and{¬,∨}are complete
+      β∨γ|==|¬(¬β∧¬γ)
+By  applying  this  repeatedly,  we  can  completely  eliminate∨from α
+      look in the notes for more information 
+
+      all the gates !!
+
+      satisfiable -- if all the truth table always outputs true 
+
+
+
+      <b>Proof.</b><br>
+      <b>Let x and y be any two even integers. We want to show that x+y is an even integer.<br>
+        By definition, an integer is even if it can be written in the form 2k for some integer k.<br>
+        Thus there exist integers n,m such that x=2 m and y = 2n. We compute:<br>
+        x + y = 2m + 2n = 2(m+n). <br>
+        Because m+n is an integer, this shows that x+y is an even integer. <right>&#x2B1B</right></b><br><br>
+
+        The important link between theorems and definitions is much of what learning higher-level math-ematics is about.
+        We prove theorems (and solve homework problems) because they make us use and understand the subtleties of definitions.
+        One does not <i>know</i> mathematics, one <i>does</i> it. Mathematics is a practice; an art as much as it is a science.
+
+
+        You can try proving a lot of basic theorems just by the method above (just try proving "product of two odd integers is odd"). This method of proving stuff is called Direct proof.<br><br>
+
+        Methods of proof <br>
+        1. <i>Direct</i> Assume P and logically deduce Q (P → Q). we'll just try proving the theorem mentioned above here P = "product of 2 odd integers" and Q = "is odd". 
+        <br><b>Proof:<br>
+        if m,n are integers then (2m+1) and (2n+1) are odd integers. <br>
+        (2m+1)(2n+1) = 4mn+2m+2n+1 = 2(mn + m + n) + 1<br>
+        here (mn+m+n) is an integer and 2(mn+m+n)+1 makes it an odd integer.</b><right>&#x2B1B</right><br><br>
+
+      Here just by showing that P → Q is true, that (the truth of) P implies (the truth of) Q requires an argument. This is the <i>proof</i><br><br>
+      
+
+      2. <i>Contrapositive</i> Assume ¬Qand deduce ¬P. This is enough since the contrapositive ¬Q=⇒ ¬P is logically equavalent to P ⇒ Q. this is fairly straight forward considering you understood Direct proof and ofcource I cant go into such great details for every topic but if you wanna learn more on the subject I'll recomend some books and lecture series at the end.<br><br>
+
+      3. <i>Contradiction</i> Assume that P and ¬Q are true and deduce a contradiction.  Since (P ∧ ¬Q) implies a contradiction, this shows that (P ∧ ¬Q) must be false. Because (P ∧ ¬Q) is equivalent to ¬(P ⇒ Q), this is enough to conclude that P ⇒ Q is true. <br><br>
+
+
+      4. <i>Induction</i> I think this is the most usefull proof of them all and i'll explain this a little later.<br><br>
+
+
+      INDUCTION STARTS HERE !
+      it is very different from all the other proffs
+      pattern recognition
+
+      give an example of stacking papers to the moon such that h of n+1 = 2h of n and h of 0 is .1
+      and make a table out of it and observe the pattern that yields 2^n * .1
+
+      but here we cannot prove this formula till infinty and here ccomes the use of induction
+
+      we show that the trick is confirmed for some initial steps and than use the recorence relationship to prove all other sequences
+
+      instead of this just show the ladder problem
+      
+      vdo on tower of hanoi
+      DisksTime531sec1017min 3sec159hr 6min 7sec2012days 3hrs 16min 15sec25∼1yr 23days30∼34yrs 9days
+
+      proving that p(1) is true 
+      proving that for all n  in N , p(n) gives p(n+1)
+
+      first is knoking the first domino and 2 is nth doimno knocking the n+1 th domino
+
+      assuming p(n) is true is called induction hypothesis
+
+
+      here starts the strong induction --
+      it requires that all proposiotions before p(n) are also true
+      explain well ordered sets
+
+      explain this with the help of fib numbers 
+      fn+1=fn+fn−1< 2n+ 2n−1 less then 2n+2n=2n+1>
+
+      if we approched this thing by weak induction we would get stuck with n-1 th term 
+
+
+
+                                    
+
+
+
+
+
+
+
+
+      Now you can go and try proving some theorems on your own but if you find a proof unusually tough thats okay because some proofs are indeed tough and mathematicians have dedicated there whole lives just to prove some theorems. Now what to do for proofs like that?<br>
+      Just learn them there is no other and proofs like this is a distillation of thousands of attempts and improvements, perhaps over many years. No-one came up with this argument as a first attempt! <br><br>
+
+
+      a little cool thing here --
+      what is the remainder of 39^23 / 10 or what is the remainder of 7^9 + 14^3 when devided by 6
+      here the trick take the modulo
+
+      7^9 + 14^3 = 1^9 + 2^3 = 9 mod 6 = 3 so if we devide it by 6, 3 is the remainder
+
+      We talked about sets earlier and not everyone knows about sets so this section is all about explaining sets ! <br><br>
+
+      </p>
+      </div>
+
+      <footer>
+        <br>
+      </footer>
+
+  </body>
+</html>
+
+
+
+
+
