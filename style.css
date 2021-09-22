@@ -257,3 +257,8 @@ section {
   border-radius:20px;
   border: 2px solid lightgrey;
 }
+
+::selection {
+  color: white;
+  background: black;
+}

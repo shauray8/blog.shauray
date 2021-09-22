@@ -130,3 +130,8 @@ b, i{
 ::-webkit-scrollbar-thumb:hover {
   background: grey;
 }
+
+::selection {
+  color: white;
+  background: black;
+}
