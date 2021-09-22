@@ -1,0 +1,159 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Why should I learn mathematical logic | we must know</title>
+    <meta property="og:title" content="Logic is USEFULL" />
+    <meta property="og:locale" content="en_US" />
+    <meta name="description" content="Can learning mathematical logic be usefull" />
+    <meta property="og:description" content="It is I guess" />
+    <link rel="canonical" href="http://wemustknow.tech" />
+    <meta property="og:url" content="http://wemustknow.tech/logic.html" />
+    <meta property="og:site_name" content="we must know" />
+    <meta property="og:type" content="article" />
+    <meta property="article:published_time" content="" />
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lora%7CInsolata%7CCormorant:500,700" rel="stylesheet">
+    <link rel="icon" href="../docs/logo.png" type="image/png">
+  </head>
+
+  <body>
+      <div class="back">
+        <h4><a href ="../index.html">KNOW</a></h4>
+      </div>
+      <div class="main_body">
+        <h1>WHAT EXACTLY IS THE REAL NUMBER SYSTEM</h1>
+      <p class ="intro">SHAURAY SINGH · SEPTEMBER 9, 2021</p>
+
+      <p>
+
+      With this little blog I would love to give you a notion of what real numbers are and trust
+      me a lot of students don't really understand what real numbers are. <br><br>
+
+      A lot of advanced concepts are based on concepts of numbers and this is what proffesors like 
+      teaching before any advanced calculus class.<br><br>
+
+      most of the blog is gonna follow the stucture from the book Principals of mathematical 
+      analysis by walter rudin you ask why because that is the book I followed and I think that is
+      one of the most well written books for analysis out there. <br><br>
+
+      So we will try building up to real numbers one step at a time starting with Rational Numbers
+      which has a bourbaki notation of Q (and for someone who is not familier with rational 
+      numbers its numbers in the form of p/q where p,q &#8712; Z where Z denotes integers and 
+      q &#8800; 0) <br><br>
+
+      Now if we have Rational Numbers why do we even need Real Numbers and the answer is very 
+      obvious Rational Numbers have holes in it (and by holes a mean litteral holes). <br><br>
+
+      And you probably know a hole from your elementry school or your high school and that is 
+      &#8730;2. How &#8730;2 is a hole you ask beacause you can never represent it with the basic
+      notation of rationals that is p/q. You can try if you want and if you know a little bit of
+      programming you try this actually but let me tell you something your program will never halt
+      it means that we'll never know if &#8730;2 is rational or not and ofcourse thats not the case
+      and mathematicians have already figured it out and you gonna see the it in a while.<br><br>
+
+      By the way all the holes in the rational number system are called irrational numbers and 
+      if you want a defination for irrational numbers it has to be "numbers with infinte decimal
+      expansions which are often approximated" as &#8730;2 is often written as 1.414. <br><br>
+  
+    </p>
+    <p class="proof">
+      
+      Here's the proof that &#8730;2 is irrational. (This is a proof by contradiction and if you
+      have absolutly no knowledge of proofs you should first learn some basics of the same and 
+      I do have a blog on it go take a look).<br><br>
+
+      m = &#8730;2 <br>
+      m&sup2; = 2 <br>
+      p&sup2;/q&sup2; = 2 <br>
+      p&sup2; = 2q&sup2; <br>
+      this shows that p&sup2; is even and if p&sup2; is even then p is even (if p&sup2; were odd
+      then p would be odd) <br>
+      (2n)&sup2; = 2q&sup2; we can substitute p with 2n because its even <br>
+      4n&sup2; = 2q&sup2; <br> this shows that n&sup2; is divisible by 4 and this shows that the 
+      right side is also divisible by 4 and this proves that q&sup2; is even which implies q is 
+      even <br><br>
+
+      Our assumption that (1) holds this leads to the conclusion that both m ans n are even, 
+      contrary to our choice of p and q. Hence (1) is impossible for rational m. &#8718;
+    </p>
+    <p>
+      Now with this we proved that rational number system as certain gaps but this is not all 
+      there is still something about the rational number system that is a little counter
+      intuative at first and that is "there is always a rational number between any two rational
+      numbers" and its statement would be<br>
+      if r &#60; s then r &#60; (r+s)/2 &#60; s.<br>
+      And if you don't beleve me here's the proof.<br>
+    </p>
+    <p class="proof">
+      
+    </p>
+
+    <p>Now I'm gonna start using some basic set notations because its cool now if you are not
+    famalier with any of it just google it or find a my blog on sets and you'll find explainations
+    to all the notatins there.
+    </p>
+    <h3> ORDERED SETS.</h3>
+
+    <p>
+      Defination: Let S be a set. An order on S is a relation, denotd by &#60;, with the following
+      properties.<Br><Br>
+      1. if x &#8712; S and y &#8712; S then one and only one of the statements x &#60; y, x = y, 
+      y &#60; x is true.<br>
+      2. if x,y,z &#8712; S, if x &#60; y and y &#60; z, then x &#60; z. <br><br>
+
+      I feel like this is straight forward defination and it'll get clear with the examples ahead
+      but to explain it in simple words an ordered set is a set S in which an order is defined.
+      <Br><Br>
+
+      Defination: S is an ordered set and E &#8834; S. if there exist a B &#8712; S such that 
+      x &#8804; B for every x &#8712; E, we say that E is bounded above and B is called an upper
+      bound of E.<br><br>
+      this tells that for a set E &#8707; B &#8712; S such that B is greater than every element of
+      E. ie. {1,2,3,4,5,6,7,8,9} this perticular set has 9 or 11 or 100 or 1000 as an upper bound.
+      <br>
+      and the same goes with the lower bound which is defined in the same way with &#8805;
+      in place of &#8804;. ie. the set we defined above has 1 or 0 or any -ve number as its 
+      lower bound. 
+
+      <center>
+      <img src="../docs/expl/upper_bound.png" height="120rem"></img>
+      <img src="../docs/expl/lower_bound.png" height="120rem"></img>
+      </center>
+
+    </p>
+    <p>
+      Now with this concept we can further proof the existance of a Lowerst Upper Bound also called
+      as supremum or sup and a Greatest Lower Bound also called as infimum or inf.
+
+    </p>
+      
+      
+      
+
+
+      <!---
+      <b>higher level logic like compactness and stuff</b><br><br>
+      <b>Number theory</b><br>
+      S is the successor function S : N - N
+      S(n) = n+1
+      . is multiplication and E is exponantiation
+
+      the structure for this language will be ZETA=(N;0,S,<,+,·,E)>
+      -->
+      </div>
+
+      <footer>
+        <br>
+      </footer>
+
+  </body>
+</html>
+
+
+
+
+

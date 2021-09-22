@@ -74,10 +74,18 @@ a {
   color:white;
   font-family: "Cormorant", serif;
 }
-p{
+p, h3{
   padding: 7vh 15% 0 15%;
   font-size:1.2em;
   color:#222222;
+}
+
+.proof{
+  padding: 2vh 4% 2vh 4%;
+  margin: 0 10% 0 10%;
+  background-color:rgb(255 251 226);
+  border: .9vh black solid;
+  border-radius:3vh;
 }
 
 .back {
